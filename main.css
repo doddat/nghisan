@@ -92,11 +92,18 @@
   
   #music-container {
     position: absolute;
-    top: 0;
+    top: 10000;
     left: 0;
     display: none;
   }
-  
+  audio{
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    left: calc(1000% - 10px);
+
+
+}
   @-webkit-keyframes spin {
     from{
       -webkit-transform: rotateY(0deg);
