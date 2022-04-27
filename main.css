@@ -100,7 +100,7 @@
     cursor: pointer;
     position: absolute;
     top: 60%;
-    left: calc(1000% - 10px);
+    left: calc(10% - 10px);
 
 
 }
